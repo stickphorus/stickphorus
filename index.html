@@ -53,12 +53,12 @@
 
       <section>
         <h1 data-i18n="index.report">Report a problem</h1>
-        <p>forkphorus is still in development. <a id="bug-link" target="_blank" rel="noopener" href="https://github.com/forkphorus/forkphorus/issues/new">Click here</a> to report a problem with this project. You can also comment problems <a href="https://scratch.mit.edu/projects/366001364/" target="_blank" rel="noopener">here</a> if you don't have a GitHub account.</p>
+        <p>stickphorus is still in development. <a id="bug-link" target="_blank" rel="noopener" href="https://github.com/stickphorus/stickphorus.github.io/issues/new">Click here</a> to report a problem with this project. You can also comment problems <a href="https://scratch.mit.edu/projects/366001364/" target="_blank" rel="noopener">here</a> if you don't have a GitHub account.</p>
       </section>
 
       <section class=package>
         <h1 data-i18n="index.embed">Embed this project</h1>
-        <p data-i18n="index.embed.description">Include the forkphorus player in your web site.</p>
+        <p data-i18n="index.embed.description">Include the stickphorus player in your web site.</p>
         <p class="embed-options">
           <input readonly id="embed-code">
           <input type="checkbox" id="embed-auto-start" checked>
@@ -139,7 +139,7 @@
       <p>forkphorus is maintained by <a href="https://scratch.mit.edu/users/GarboMuffin/">GarboMuffin</a> and <a href="https://github.com/forkphorus/forkphorus/graphs/contributors">other contributors</a>. It is a fork off <a href="https://github.com/nathan">Nathan</a>'s <a href="https://phosphorus.github.io/">phosphorus</a>. Its CPS-style compilation was inspired by <a href="https://github.com/RHY3756547">Rhys</a>'s <a href="https://code.google.com/p/sb2-js/">sb2.js</a>. The <a href="https://stuk.github.io/jszip/">JSZip</a> library is used to read <code>.sb2</code> and <code>.sb3</code> files, and the <a href="https://github.com/canvg/canvg">canvg</a> library is used to render SVGs for Scratch 2 projects.</p>
 
       <h1 data-i18n="index.code">Code</h1>
-      <p>The source code for forkphorus is available <a href=https://github.com/forkphorus/forkphorus>on GitHub</a>.</p>
+      <p>The source code for stickphorus is available <a href=https://github.com/stickphorus/stickphorus.github.io/>on GitHub</a>.</p>
 
       <footer>
         <a data-i18n="index.privacy" href="privacy">Privacy Policy</a>
@@ -177,7 +177,7 @@
       'index.package.480': '480\u00D7360',
       'index.package.custom': 'Other:',
       'index.package.divider': '\u00D7',
-      'index.embed.description': 'Include the forkphorus player in your web site.',
+      'index.embed.description': 'Include the stickphorus player in your web site.',
       'index.embed.autostart': 'Start automatically',
       'index.embed.lightControls': 'Light controls',
       'index.embed.hideUI': 'Hide UI',
@@ -243,7 +243,7 @@
       }
       err = '' + err;
       var el = document.createElement('div');
-      el.innerHTML = `Alternatively, <a href="https://scratch.mit.edu/projects/366001364/" target="_blank">post a Scratch comment</a> and include: "<span style="font-family: monospace; user-select: all">${err.replace(/<>/g, '')} (${player.getProjectMeta().getId()})</span>"`;
+      el.innerHTML = `Alternatively, <a href="https://scratch.mit.edu/projects/415128900/" target="_blank">post a Scratch comment</a> and include: "<span style="font-family: monospace; user-select: all">${err.replace(/<>/g, '')} (${player.getProjectMeta().getId()})</span>"`;
       errorHandler.errorEl.appendChild(el);
       if (errorHandler.generatedErrorLink) {
         bugLink.href = errorHandler.generatedErrorLink;
@@ -253,7 +253,7 @@
 
     // expose player on the global object
     window.player = player;
-    console.log('forkphorus is open source https://github.com/forkphorus/forkphorus');
+    console.log('forkphorus is open source https://github.com/stickphorus');
     console.log('The project player is exposed as `player`');
     console.log('The project is exposed as `player.stage`');
     console.log('Sprites are exposed in `player.stage.children`');
